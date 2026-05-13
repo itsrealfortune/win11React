@@ -4,7 +4,7 @@ document.write(
     "ipt>",
 );
 
-//if (window.location.hostname == "win11.blueedge.me") {
+//if (window.location.hostname == "itsrealfortune.fr/win11React") {
 //  window.location.href = "https://wintest.andrewstech.me/";
 //}
 
