@@ -9,6 +9,7 @@ on:
 permissions:
   pages: write
   id-token: write
+  workflows: write
 
 concurrency:
   group: pages
