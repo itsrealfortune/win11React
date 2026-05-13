@@ -17,8 +17,10 @@ export const AboutWin = () => {
   const action = () => {
     setOpen(false);
     localStorage.setItem("closeAbout", true);
-    dispatch({ type: "DESKABOUT", payload: false });
+    // dispatch({ type: "DESKABOUT", payload: false });
   };
+
+  localStorage.setItem("wps", 2);
 
   useEffect(() => {
     if (timer > 0 && !locked && booted) {

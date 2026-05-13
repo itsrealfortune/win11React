@@ -46,13 +46,13 @@ const apps = [
     type: "app",
     action: "MSEDGE",
   },
-  {
-    name: "Buy me a coffee",
-    icon: "buyme",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://www.buymeacoffee.com/itsrealfortune",
-  },
+  // {
+  //   name: "Buy me a coffee",
+  //   icon: "buyme",
+  //   type: "app",
+  //   action: "EXTERNAL",
+  //   payload: "https://www.buymeacoffee.com/itsrealfortune",
+  // },
   {
     name: "Store",
     icon: "store",
@@ -285,7 +285,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://github.com/itsrealfortune/win11React",
+    payload: "https://github.com/itsrealfortune",
   },
   // {
   //   name: "Unescape",

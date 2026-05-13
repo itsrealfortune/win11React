@@ -4,6 +4,7 @@ var locked = localStorage.getItem("locked");
 const walls = [
   "default/img0.jpg",
   "dark/img0.jpg",
+  "ych-bg.png",
   "ThemeA/img0.jpg",
   "ThemeA/img1.jpg",
   "ThemeA/img2.jpg",
