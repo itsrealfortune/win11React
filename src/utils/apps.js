@@ -51,7 +51,7 @@ const apps = [
     icon: "buyme",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.buymeacoffee.com/blueedgetechno",
+    payload: "https://www.buymeacoffee.com/itsrealfortune",
   },
   {
     name: "Store",
@@ -130,7 +130,7 @@ const apps = [
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
-    payload: "mailto:blueedgetechno@gmail.com",
+    payload: "mailto:chloerolzhausen@gmail.com",
   },
   {
     name: "Movies",
@@ -198,7 +198,7 @@ const apps = [
     icon: "pinterest",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://www.pinterest.com/blueedgetechno/",
+    payload: "https://www.pinterest.com/itsrealfortune/",
   },
   {
     name: "Security",
@@ -231,7 +231,7 @@ const apps = [
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
+    payload: "https://twitter.com/itsrealfortune",
   },
   {
     name: "Teams",
@@ -285,7 +285,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://github.com/blueedgetechno/win11React",
+    payload: "https://github.com/itsrealfortune/win11React",
   },
   {
     name: "Unescape",

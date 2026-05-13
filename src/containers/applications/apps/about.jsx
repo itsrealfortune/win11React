@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
 
 export const AboutWin = () => {
   const { abOpen } = useSelector((state) => state.desktop);
@@ -37,7 +37,7 @@ export const AboutWin = () => {
           {t("about.licensed")}&nbsp;
           <a
             target="_blank"
-            href="https://github.com/blueedgetechno/win11React/blob/master/LICENSE"
+            href="https://github.com/itsrealfortune/win11React/blob/master/LICENSE"
             rel="noreferrer"
           >
             {t("about.Creative-Commons")}
