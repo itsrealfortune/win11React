@@ -9,7 +9,6 @@ on:
 permissions:
   pages: write
   id-token: write
-  workflows: write
 
 concurrency:
   group: pages
@@ -44,6 +43,9 @@ jobs:
       - uses: actions/upload-pages-artifact@v1
         with:
           path: build
+
+      # add .nojekyll to prevent GitHub Pages from ignoring files that start with an underscore
+      - run: echo "" > build/.nojekyll
 
       - name: Sleep
         run: sleep 15s
