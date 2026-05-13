@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Icon, Image, ToolBar } from "../../../utils/general";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { dispatchAction, handleFileOpen } from "../../../actions";
+import { Icon, Image, ToolBar } from "../../../utils/general";
 import "./assets/fileexpo.scss";
 
 const NavTitle = (props) => {
@@ -342,7 +342,7 @@ const NavPane = ({}) => {
             notoggle
             pinned
           />
-          <Dropdown icon="user" title="Blue" spid="%user%" notoggle pinned />
+          <Dropdown icon="user" title="Chloé" spid="%user%" notoggle pinned />
           <Dropdown
             icon="docs"
             title="Documents"

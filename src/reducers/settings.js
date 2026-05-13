@@ -1,4 +1,3 @@
-import { desktopApps } from "../utils";
 
 const defState = {
   system: {
@@ -17,7 +16,7 @@ const defState = {
     },
   },
   person: {
-    name: "Blue Edge",
+    name: "Chloé",
     theme: "light",
     color: "blue",
   },

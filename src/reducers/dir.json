@@ -74,9 +74,9 @@
               "Public Videos": {}
             }
           },
-          "Blue": {
+          "Chloé": {
             "type": "folder",
-            "name": "Blue",
+            "name": "Chloé",
             "info": {
               "spid": "%user%",
               "icon": "user"

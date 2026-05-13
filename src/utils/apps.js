@@ -65,7 +65,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Blue",
+    name: "Chloé",
     icon: "win/user",
     type: "app",
     action: "EXPLORER",
@@ -287,13 +287,13 @@ const apps = [
     action: "EXTERNAL",
     payload: "https://github.com/itsrealfortune/win11React",
   },
-  {
-    name: "Unescape",
-    icon: "unescape",
-    type: "action",
-    action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
-  },
+  // {
+  //   name: "Unescape",
+  //   icon: "unescape",
+  //   type: "action",
+  //   action: "EXTERNAL",
+  //   payload: "https://blueedge.me/unescape",
+  // },
   {
     name: "Discord",
     icon: "discord",
