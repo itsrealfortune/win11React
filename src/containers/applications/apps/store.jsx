@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Icon, Image, ToolBar, LazyComponent } from "../../../utils/general";
-import "./assets/store.scss";
 import axios from "axios";
-import storedata from "./assets/store.json";
-import { installApp } from "../../../actions";
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
+import { installApp } from "../../../actions";
+import { Icon, Image, LazyComponent, ToolBar } from "../../../utils/general";
+import storedata from "./assets/store.json";
+import "./assets/store.scss";
 
 const geneStar = (item, rv = 0) => {
   var url = item.data.url,
@@ -482,7 +482,7 @@ const FrontPage = (props) => {
               return x == "unescape" ? (
                 <a
                   key={i}
-                  href="https://blueedge.me/unescape"
+                  href="https://itsrealfortune.fr/unescape"
                   target="_blank"
                   rel="noreferrer"
                 >

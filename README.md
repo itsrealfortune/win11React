@@ -25,7 +25,7 @@ https://win11react-docs.andrewstech.me/
 
 ## _This project is still a work in progress._
 
-#### Live Experience🌈: [win11.blueedge.me](https://win11.blueedge.me)
+#### Live Experience🌈: [itsrealfortune.fr/win11React](https://itsrealfortune.fr/win11React)
 
 ![Home](./public/img/home.jpg)
 
@@ -128,7 +128,7 @@ If you have one of the latest windows builds then you can enter the command belo
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/itsrealfortune/win11React)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fitsrealfortune%2Fwindows11%2F&project-name=windows11&repo-name=windows11-react&demo-title=Windows%2011%20Demo&demo-description=Static&demo-url=https%3A%2F%2Fwin11.blueedge.me%2F)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fitsrealfortune%2Fwindows11%2F&project-name=windows11&repo-name=windows11-react&demo-title=Windows%2011%20Demo&demo-description=Static&demo-url=https%3A%2F%2Fitsrealfortune.fr/win11React%2F)
 
 ## Contributors
 

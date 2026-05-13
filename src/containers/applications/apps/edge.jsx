@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Icon, ToolBar, LazyComponent } from "../../../utils/general";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { Icon, LazyComponent, ToolBar } from "../../../utils/general";
 
 export const EdgeMenu = () => {
   const wnapp = useSelector((state) => state.apps.edge);
@@ -14,14 +14,14 @@ export const EdgeMenu = () => {
     "https://www.google.com/webhp?igu=1": "Google",
     "https://bing.com": "Bing",
     "https://www.youtube.com/embed/m0EHSoZzHEA": "Youtube",
-    "https://blueedge.me": "blueedge",
+    "https://itsrealfortune.fr": "blueedge",
     "https://andrewstech.me": "\nandrewstech",
-    "https://blueedge.me/unescape": "Unescape",
-    "https://win11.blueedge.me": "Inception",
+    "https://itsrealfortune.fr/unescape": "Unescape",
+    "https://itsrealfortune.fr/win11React": "Inception",
     "https://open.spotify.com/embed/user/jhfivkgdtg4s97pwbo1rbvr9v/playlist/6IdR78TOog83PV4XhLDvWN":
       "Spotify",
-    "https://bluelab.blueedge.me": "BlueLab",
-    "https://othello.blueedge.me": "Othello",
+    "https://bluelab.itsrealfortune.fr": "BlueLab",
+    "https://othello.itsrealfortune.fr": "Othello",
   };
 
   const favicons = {

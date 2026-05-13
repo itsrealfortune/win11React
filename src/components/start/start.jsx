@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { Icon } from "../../utils/general";
 
 export const StartMenu = () => {
@@ -267,7 +267,7 @@ export const StartMenu = () => {
                 rounded
                 width={26}
                 click="EXTERNAL"
-                payload="https://blueedge.me"
+                payload="https://itsrealfortune.fr"
               />
               <div className="usName">{userName}</div>
             </div>

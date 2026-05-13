@@ -292,7 +292,7 @@ const apps = [
   //   icon: "unescape",
   //   type: "action",
   //   action: "EXTERNAL",
-  //   payload: "https://blueedge.me/unescape",
+  //   payload: "https://itsrealfortune.fr/unescape",
   // },
   {
     name: "Discord",
